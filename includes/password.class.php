@@ -29,7 +29,7 @@ Class Password {
         }
         switch ($algo) {
             case PASSWORD_BCRYPT :
-                // Note that this is a C constant, but not exposed to PHP, so we don't define it here.
+                
                 $cost = 10;
                 if (isset($options['cost'])) {
                     $cost = $options['cost'];
@@ -121,22 +121,7 @@ Class Password {
         }
         return $ret;
     }
-    /**
-     * Get information about the password hash. Returns an array of the information
-     * that was used to generate the password hash.
-     *
-     * array(
-     *    'algo' => 1,
-     *    'algoName' => 'bcrypt',
-     *    'options' => array(
-     *        'cost' => 10,
-     *    ),
-     * )
-     *
-     * @param string $hash The password hash to extract info from
-     *
-     * @return array The array of information about the hash.
-     */
+
     function password_get_info($hash) {
         $return = array('algo' => 0, 'algoName' => 'unknown', 'options' => array(), );
         if (substr($hash, 0, 4) == '$2y$' && strlen($hash) == 60) {
