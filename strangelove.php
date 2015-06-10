@@ -29,7 +29,7 @@ require('includes/header.php');
 						Video not supported
 					</video>
 					<h1>This week <strong>#joy</strong><br>
-						<span class="moviename">The Cabinet of Dr. Caligari</span><br>
+						<span class="moviename">Dr. Strangelove</span><br>
 						<span class="productor">(by <strong>Stanley Kubrick</strong>, 1964)<span>
 					</h1>
 
