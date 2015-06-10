@@ -1,9 +1,7 @@
 <?php
 //include config
 require_once('includes/config.php');
-//check if already logged in move to home page
-//if logged in redirect to members page
-// if( $user->is_logged_in() ){ header('Location: memberpage.php'); } 
+
 
 //if form has been submitted process it
 if(isset($_POST['submit'])){
@@ -56,9 +54,6 @@ if(isset($_POST['submit'])){
 			));
 			$id = $db->lastInsertId('userID');
 			
-			//redirect to index page
-			// header('Location: index.php?action=joined');
-			// exit;
 		//else catch the exception and show the error.
 		} catch(PDOException $e) {
 		    $error[] = $e->getMessage();
