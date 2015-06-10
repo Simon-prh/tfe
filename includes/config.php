@@ -5,8 +5,8 @@ session_start();
 
 //database credentials
 define('DBHOST','localhost');
-define('DBUSER','simon');
-define('DBPASS','bSt8q3CyUZnw8SvZ');
+define('DBUSER','root');
+define('DBPASS','');
 define('DBNAME','simon');
 
 
