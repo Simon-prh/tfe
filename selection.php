@@ -11,7 +11,7 @@ require_once('includes/config.php');
 
 
 //define page title
-$title = 'Demo';
+$title = 'Selection - Rewind';
 
 //include header template
 require('includes/header.php'); 
@@ -37,7 +37,7 @@ require('includes/header.php');
 
 						
 						
-						<a class="check clickit" href="surprise.html">
+						<a class="check clickit" href="lostworld.php">
 							<span class="picto surprise">
 								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -67,7 +67,7 @@ require('includes/header.php');
 						
 
 						
-						<a class="check clickit" href="joy.html">
+						<a class="check clickit" href="strangelove.php">
 							<span class="picto">
 								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -99,7 +99,7 @@ require('includes/header.php');
 					<li class="min backbg third">
 						
 
-						<a class="check clickit" href="fear.html">
+						<a class="check clickit" href="caligari.php">
 							<span class="picto">
 								<svg version="1.1" class="fear badchild" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -207,7 +207,7 @@ require('includes/header.php');
 					<li class="min backbg fourth">
 						
 
-						<a class="check clickit" href="anger.html">
+						<a class="check clickit" href="battleship.php">
 							<span class="picto">
 								<svg version="1.1" class="anger badchild" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -258,7 +258,7 @@ require('includes/header.php');
 					<li class="min backbg fifth">
 						
 
-						<a class="check clickit" href="melancholy.html">
+						<a class="check clickit" href="doa.php">
 							<span class="picto">
 								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
 									<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M71.333,68"/>
@@ -295,7 +295,7 @@ require('includes/header.php');
 					<li class="min backbg sixth">
 						
 
-						<a class="check clickit" href="envy.html">
+						<a class="check clickit" href="thegeneral.php">
 							<span class="picto">
 								<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -312,7 +312,7 @@ require('includes/header.php');
 					<li class="min backbg seventh">
 						
 
-						<a class="check clickit" href="empathy.html">
+						<a class="check clickit" href="steamboat.php">
 							<span class="picto">
 								<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -333,7 +333,7 @@ require('includes/header.php');
 					<li class="min backbg eighth">
 						
 
-						<a class="check clickit" href="anxiety.html">
+						<a class="check clickit" href="steps.php">
 							<span class="picto">
 								<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
@@ -354,7 +354,7 @@ require('includes/header.php');
 					<li class="min backbg ninth">
 						
 
-						<a class="check clickit" href="passion.html">
+						<a class="check clickit" href="myman.php">
 							<span class="picto">
 								<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 									 width="916px" height="523px" viewBox="0 0 916 523" enable-background="new 0 0 916 523" xml:space="preserve">
